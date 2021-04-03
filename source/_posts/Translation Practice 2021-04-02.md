@@ -1,6 +1,6 @@
 ---
 title: Translation Practice 2021-04-02
-date: 2021-04-02 13:29:38
+date: 2021-04-02
 tags:
 - Eng
 - Translation
