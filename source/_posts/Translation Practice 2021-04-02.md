@@ -2,7 +2,7 @@
 title: Translation Practice 2021-04-02
 date: 2021-04-02
 tags:
-- Eng
+- en
 - Translation
 ---
 1. His ~~attempt~~ attempts *to fake an alibi* ~~at revealed~~ exposed a guilty conscience.
