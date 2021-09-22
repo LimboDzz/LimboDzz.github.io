@@ -2,8 +2,9 @@
 title: How to enter Developer Mode
 date: 2021-04-03 21:17:02
 tags:
-- P&A
+  - P&S
 ---
+
 ## Problem
 
 I need to turn on USB debugging.
