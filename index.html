@@ -145,6 +145,76 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://limbodzz.github.io/2021/09/22/My-first-try-on-online-judge/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="LimboDzz">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LimboDzz's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/09/22/My-first-try-on-online-judge/" class="post-title-link" itemprop="url">My first try on online judge</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2021-09-22 18:53:15 / Modified: 19:17:38" itemprop="dateCreated datePublished" datetime="2021-09-22T18:53:15+08:00">2021-09-22</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="Problem"><a href="#Problem" class="headerlink" title="Problem"></a>Problem</h2><p><img src="https://i.bmp.ovh/imgs/2021/09/8b42c6c3e69fda35.png" alt="img"></p>
+<h2 id="Wrong-Answer"><a href="#Wrong-Answer" class="headerlink" title="Wrong Answer"></a>Wrong Answer</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">indexOf</span>(<span class="params">arr, item</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">let</span> n=<span class="number">0</span>;</span><br><span class="line">    arr.forEach(<span class="function"><span class="params">i</span>=&gt;</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(i==item) <span class="keyword">return</span> n;</span><br><span class="line">        n++;</span><br><span class="line">    &#125;)</span><br><span class="line">    <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Accepted"><a href="#Accepted" class="headerlink" title="Accepted"></a>Accepted</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">indexOf</span>(<span class="params">arr, item</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">let</span> n=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">let</span> i=<span class="number">0</span>;i&lt;arr.length;i++)&#123;</span><br><span class="line">        <span class="keyword">if</span>(arr[i]==item) <span class="keyword">return</span> n;</span><br><span class="line">        n++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="What-learnt"><a href="#What-learnt" class="headerlink" title="What learnt"></a>What learnt</h2><p>I confused <strong>Array.prototype.forEach</strong> with <strong>For Loop</strong>.</p>
+<p>The <strong>forEach()</strong> method executes a provided function once for each array element.</p>
+<p>While the <strong>For</strong> statement loops through the same code block till the condition is met.</p>
+<p>So in the wrong answer <code>return n;</code> only returns out of the arrow function, not the loop, ending in always output a -1 for any given array.</p>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ol>
+<li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach</a></li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="https://limbodzz.github.io/2021/05/24/%E8%A8%98%E9%8C%84Powershell%E9%81%8B%E8%A1%8C%E7%9A%84%E5%91%BD%E4%BB%A4/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -170,7 +240,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2021-05-24 16:48:43 / Modified: 16:53:11" itemprop="dateCreated datePublished" datetime="2021-05-24T16:48:43+08:00">2021-05-24</time>
+              <time title="Created: 2021-05-24 16:48:43 / Modified: 17:00:12" itemprop="dateCreated datePublished" datetime="2021-05-24T16:48:43+08:00">2021-05-24</time>
             </span>
 
           
@@ -236,7 +306,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2021-05-24 16:16:34 / Modified: 16:36:02" itemprop="dateCreated datePublished" datetime="2021-05-24T16:16:34+08:00">2021-05-24</time>
+              <time title="Created: 2021-05-24 16:16:34 / Modified: 17:02:26" itemprop="dateCreated datePublished" datetime="2021-05-24T16:16:34+08:00">2021-05-24</time>
             </span>
 
           
@@ -975,7 +1045,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-05-14 13:26:24" itemprop="dateModified" datetime="2021-05-14T13:26:24+08:00">2021-05-14</time>
+                <time title="Modified: 2021-05-24 17:02:12" itemprop="dateModified" datetime="2021-05-24T17:02:12+08:00">2021-05-24</time>
               </span>
 
           
@@ -998,82 +1068,6 @@
 </ul>
 <h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ol>
 <li><a target="_blank" rel="noopener" href="https://jingyan.baidu.com/article/d5c4b52bb1d28eda570dc558.html">https://jingyan.baidu.com/article/d5c4b52bb1d28eda570dc558.html</a></li>
-</ol>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://limbodzz.github.io/2021/04/03/How-to-shorten-ssh-i-identityFile-user-host/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="LimboDzz">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="LimboDzz's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/04/03/How-to-shorten-ssh-i-identityFile-user-host/" class="post-title-link" itemprop="url">How to shorten 'ssh -i identityFile user@host'</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2021-04-03 20:13:20" itemprop="dateCreated datePublished" datetime="2021-04-03T20:13:20+08:00">2021-04-03</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-05-14 13:26:24" itemprop="dateModified" datetime="2021-05-14T13:26:24+08:00">2021-05-14</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="Problem"><a href="#Problem" class="headerlink" title="Problem"></a>Problem</h2><p>It feels really cumbersome to enter <code>ssh -i identityFile user@host</code> every time I connect to my vps. It’s lengthy and I never remember my host ip.</p>
-<h2 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h2><p>We can put all these connection details like your key, your username and of course your host into ssh’s configuration file.</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/ssh/ssh_config</span><br></pre></td></tr></table></figure>
-
-<p>and append the following</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Lightsail</span></span><br><span class="line">Host name-of-your-choice</span><br><span class="line">HostName host</span><br><span class="line">Port 22                             <span class="comment"># 22 is default ssh port</span></span><br><span class="line">User user</span><br><span class="line">IdentityFile file</span><br></pre></td></tr></table></figure>
-
-<p>Ok, you can now create a connection using <code>ssh name-of-your-choice</code></p>
-<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ol>
-<li><a target="_blank" rel="noopener" href="https://www.sohu.com/a/433733604_120161573">https://www.sohu.com/a/433733604_120161573</a></li>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/huasonl88/article/details/52166876">https://blog.csdn.net/huasonl88/article/details/52166876</a></li>
 </ol>
 
       
@@ -1159,12 +1153,12 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">15</span>
+          <span class="site-state-item-count">16</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">10</span>
         <span class="site-state-item-name">tags</span>
       </div>
   </nav>
