@@ -12,3 +12,7 @@ All three are shortened version of words and phrases. But **Acronyms** form new 
 | radar (radio detection and ranging) | St. (Street) | ATM (automated teller machine) |
 | gif (graphics interchange format) | Ex. (example) | FAQ (frequently asked questions) |
 | ZIP code (zone improvement plan) | Dec. (December) | a/c (air conditioning) |
+
+## References
+
+1. <https://abbreviations.yourdictionary.com/articles/what-is-the-difference-between-an-abbreviation-and-an-acroynm.html>
